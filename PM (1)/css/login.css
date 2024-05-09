@@ -1,0 +1,50 @@
+
+.ho{
+  background-image: url(img/11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form-signin{
+  border: 3px solid #0a0a0a;
+  background-color: aliceblue;
+  border-radius: 5PX;
+  padding: 17PX;
+  width: 400PX;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: -5px;
+  border-top-right-radius: -5px;
+}
+
+
+
